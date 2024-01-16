@@ -1,0 +1,5 @@
+pytz==2022.7.1
+ics==0.7.2
+loguru==0.7.0
+watchdog==3.0.0
+PyYAML==5.3.1

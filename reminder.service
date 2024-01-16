@@ -1,0 +1,12 @@
+[Unit]
+Description=Reminder
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /root/scripts/python/reminder/main.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
